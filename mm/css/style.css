@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+body {
+  height: 100vh;
+  font-family: Inter, sans-serif; }
+
+body, p {
+  margin: 0; }
+
+.policy-page {
+  height: 100%; }
+
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  .page-big-title {
+    color: white;
+    font-size: 40px;
+    line-height: 46px;
+    text-align: center;
+    font-weight: bold; }
+  .page-text {
+    color: white;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center; }
+  .page-one {
+    padding: 0 24px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative; }
+    .page-one img.casava-logo {
+      width: 118px;
+      position: absolute;
+      bottom: 48px; }
+  .page-two {
+    padding: 0 24px;
+    background-color: #A1024C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+    .page-two .page-big-title {
+      font-weight: 800;
+      font-size: 48px; }
+    .page-two .page-text {
+      line-height: 28px; }
+  .page-three, .page-four, .page-five {
+    background-color: #E5E5E5;
+    padding: 0 24px; }
+    .page-three .page-title, .page-four .page-title, .page-five .page-title {
+      color: #1A1A1A;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 24px;
+      margin-bottom: 24px; }
+  .page-three {
+    padding: 0 32px; }
+    .page-three .page-text {
+      text-align: center;
+      color: #555555;
+      font-size: 14px;
+      line-height: 24px; }
+  .page-four, .page-five {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 48px; }
+  .page-five .page-text {
+    margin-bottom: 8px;
+    color: #555555; }
+  .page-five ul, .page-five ol {
+    padding-left: 8px; }
+    .page-five ul li, .page-five ol li {
+      color: #555555;
+      font-size: 14px;
+      line-height: 24px; }
+  .page-five ol {
+    padding-left: 24px; }
+  .page-fourteen {
+    background-color: black;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+    .page-fourteen img.casava-logo {
+      width: 118px; }
+    .page-fourteen .footer-text {
+      color: #999;
+      font-size: 14px;
+      line-height: 24px;
+      position: absolute;
+      bottom: 48px; }
+
+.card {
+  background-color: white;
+  border-radius: 16px;
+  padding: 24px 32px;
+  width: 85%; }
+  .card .row:not(:last-of-type) {
+    margin-bottom: 32px; }
+  .card img {
+    margin-right: 18px; }
+  .card img.barred-circle {
+    width: 18px;
+    height: 18px; }
+  .card img.hospitalisation {
+    width: 22px;
+    height: 19px; }
+  .card img.ambulance {
+    width: 26px;
+    height: 24px; }
+  .card img.note {
+    width: 24px;
+    height: 24px; }
+  .card img.email {
+    width: 20px;
+    height: 19px; }
+  .card-text {
+    margin: 0;
+    font-size: 14px;
+    color: #555555;
+    line-height: 24px; }
+    .card-text span {
+      color: #FB2C8D; }
+  .card--benefits, .card--claim {
+    display: flex;
+    align-items: flex-start; }
+    .card--benefits:not(:last-of-type), .card--claim:not(:last-of-type) {
+      margin-bottom: 16px; }
+    .card--benefits-desc .title, .card--claim-desc .title {
+      margin-bottom: 8px;
+      font-weight: 600;
+      color: #1A1A1A;
+      font-size: 14px; }
+    .card--benefits-desc .description, .card--claim-desc .description {
+      font-size: 14px;
+      line-height: 24px;
+      color: #555555; }
+  .card--claim .description {
+    line-height: unset;
+    color: #555555; }
+    .card--claim .description span {
+      color: #FB2C8D; }
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center; }
+
+.label, .desc {
+  font-size: 12px;
+  line-height: 20px; }
+
+.label {
+  color: #999999; }
+
+.desc {
+  color: #333333;
+  width: 50%;
+  text-align: right; }

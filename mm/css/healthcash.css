@@ -1,0 +1,747 @@
+body {
+    font-family: 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    height: 640px;
+    width: 360px;
+    /* to centre page on screen*/
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #545454;
+}
+
+a {
+    color: #000;
+}
+
+p {
+    font-size: 14px;
+    line-height: 22px;
+    color: #000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+    font-weight: 700;
+    color: #000;
+}
+
+strong {
+    font-family: 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+}
+
+.h-1 {
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 50px;
+    color: white;
+}
+
+.h-1-2 {
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 50px;
+    color: black;
+}
+
+.h-2 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.h-3-2 {
+    font-size: 36px;
+}
+
+.lh-70 {
+    line-height: 70px;
+}
+
+.lead {
+    font-family: 'Inter';
+    font-size: 14px;
+    line-height: 22px;
+    color: #000;
+}
+
+.fw-600{
+    font-weight: 600;
+}
+
+.small {
+    font-family: 'Inter';
+    font-size: 10px;
+    line-height: 14px;
+    color: #000;
+}
+
+.p-card{
+    border: 1px solid #EAEAEA;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 15px 10px;
+}
+
+.bg-white {
+    background-color: #ffffff;
+}
+
+.border-round-16 {
+    border-radius: 16px;
+}
+
+.border-round-24 {
+    border-radius: 24px;
+}
+
+.gray-4{
+    color:  #999999;
+}
+
+.gray-5{
+    color: #545454;
+}
+
+
+.p-subtitle {
+    font-family: 'Inter';
+    font-size: 16px;
+    line-height: 24px;
+
+}
+
+.pc-title {
+    font-family: 'Inter';
+    font-size: 16px;
+    line-height: 24px;
+    color:white;
+}
+
+.logo-bg{
+    background-image: url("../img/bg/bg-symbol.svg");
+    background-repeat: no-repeat;
+}
+
+section {
+    position: relative;
+    padding-top: 13rem;
+    padding-bottom: 8rem;
+    height: 842px;
+    background-color: white;
+    border-bottom: 1px solid #545454;
+}
+
+.btn {
+    border-radius: 5px;
+    padding: 9px 30px;
+    font-family: 'Inter';
+    width: 100%;
+}
+
+.btn:focus, .btn.focus {
+    box-shadow: none;
+}
+
+.btn.btn-primary {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    background-color: #FF3355;
+    border: 0;
+}
+
+.btn.btn-primary:hover {
+    background-color: #FF3355 !important;
+}
+
+.text-default { color: #ff335f }
+
+.bg-default {
+    background-color: #ff335f;
+}
+
+.bg-default-light {
+    background-color: #fffaf4;
+}
+
+.bg-default-gray {
+    background-color: #f5f5f5;
+}
+
+.copyright {
+    text-align: center;
+    color: #ffffff;
+}
+
+.logo {
+    display: inline-block;
+    background: url(../img/sprint.svg) no-repeat transparent;
+    background-position: left 0px top 0px;
+    background-size: cover;
+    width: 220px;
+    height: 36.66px;
+    position: relative;
+    transition: background 0.15s ease-out;
+}
+
+.img {
+    max-width: 100%;
+}
+
+.hide {
+    display: none !important;
+}
+
+.bg-grad {
+    background: linear-gradient(147.44deg, #ff335f 26.99%, #3eccf1 74.1%) !important;
+}
+
+.bg-grad-dark {
+    background: linear-gradient(147.44deg, #203947 26.99%, #0388a3 74.1%) !important;
+}
+
+.z-index-10 {
+    z-index: 10;
+}
+
+.full-vh {
+    min-height: 100vh;
+}
+
+.vertical-center {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	width: calc(100% - 48px);
+}
+
+.policy-page {
+	height: 100%;
+	max-width: 360px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.page {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.page-subtitle {
+	margin: 0 0 28px;
+	color: #999999;
+	text-align: center;
+}
+.page-text--center {
+	text-align: center;
+}
+.page-big-title {
+	color: white;
+	font-size: 48px;
+	line-height: 50px;
+	text-align: center;
+	font-weight: 800;
+}
+.page-text {
+	color: white;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+	padding: 0 20px;
+	margin-top: 20px;
+}
+
+/* .page-one div.casava-logo-div {
+	position: absolute;
+	top: 48px;
+} */
+
+.page-one img.casava-logo {
+	width: 118px;
+	/* position: absolute;
+	top: 48px;
+    left: 50%; */
+}
+
+.page-one {
+    background-color: #ffffff;
+    background-image: url('../assets/casava-bg-invert.png');
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+}
+
+.page-two {
+    background-color: #a1024c;
+    background-repeat: no-repeat;
+    background-image: url('../assets/pink-casava-bg.png');
+    background-position: 50% 100%;
+
+}
+
+/*
+.page-three {
+    background-color: #e5e5e5;
+}
+
+.page-five {
+    background-color: #ebf5ff;
+}
+*/
+
+
+
+/*
+.page-two {
+	padding: 0 24px;
+	background-color: #a1024c;
+}
+.page-two--health {
+	background-color: #ebf5ff;
+}
+.page-two--health p {
+	color: #303030;
+}
+.page-two .page-big-title {
+	font-weight: 800;
+	font-size: 48px;
+}
+.page-two .page-text {
+	line-height: 28px;
+}
+.page-two--income {
+	background-image: url("../assets/pink-casava-bg.png");
+	background-repeat: no-repeat;
+	background-position: 50% 100%;
+}
+*/
+
+.page-three {
+    /* padding-top: 118px; */
+    background-color: #f5f5f4;
+}
+.page-three .page-title,
+.page-four .page-title,
+.page-five .page-title,
+.page-six .page-title {
+	color: #1a1a1a;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 24px;
+	margin-bottom: 13px;
+}
+.page-three .page-text {
+	text-align: center;
+	color: #999999;
+	font-size: 14px;
+	line-height: 24px;
+}
+.page-four,
+.page-five,
+.page-six {
+    /* padding: 0 30px;
+	padding-top: 48px; */
+    background-color: #f5f5f4;
+}
+.page-six .page-text {
+	margin-bottom: 8px;
+	color: #999999;
+}
+.page-six ul,
+.page-six ol {
+	padding-left: 8px;
+}
+.page-six ul li,
+.page-six ol li {
+	color: #999999;
+	font-size: 14px;
+	line-height: 24px;
+}
+.page-six ol {
+	padding-left: 24px;
+}
+.page-fourteen {
+	background: #1a1a1a;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding:0 30px;
+}
+.page-fourteen img.casava-logo {
+	width: 118px;
+}
+.page-fourteen .footer-text {
+	color: #999;
+	font-size: 14px;
+	line-height: 24px;
+	position: absolute;
+	bottom: 48px;
+}
+
+.page-last {
+    background-color: #1A1A1A;
+    background-image: url('../assets/casava-bg.png');
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+}
+
+.card {
+	background-color: white;
+	border-radius: 24px;
+	padding: 24px 28px;
+	width: 100%;
+	margin: 0 auto;
+}
+.card .row:not(:last-of-type) {
+	margin-bottom: 32px;
+}
+.card img {
+	margin-right: 18px;
+	width: 20px;
+	height: 20px;
+	object-fit: contain;
+}
+.card img .health {
+	margin-right: 8px;
+}
+.card img .barred-circle {
+	width: 18px;
+	height: 18px;
+}
+.card img .barred-circle--health {
+	margin-right: 8px;
+}
+.card img.hospitalisation {
+	width: 22px;
+	height: 19px;
+}
+.card img.ambulance {
+	width: 26px;
+	height: 24px;
+}
+.card img.note {
+	width: 24px;
+	height: 24px;
+}
+.card img.email {
+	width: 20px;
+	height: 19px;
+}
+.card-text {
+	margin: 0;
+	font-size: 14px;
+	color: #999999;
+}
+.card-text span {
+	color: #fb2c8d;
+}
+.card--benefits-health {
+	flex-direction: column;
+}
+.card--benefits:not(:last-of-type),
+.card--claim:not(:last-of-type) {
+	margin-bottom: 16px;
+}
+.card--benefits .subtitle,
+.card--claim .subtitle {
+	color: #999999;
+	margin: 8px 0;
+	font-size: 12px;
+}
+.card--benefits-desc .title,
+.card--claim-desc .title {
+	margin-bottom: 8px;
+	font-weight: 600;
+	color: #1a1a1a;
+	font-size: 14px;
+}
+.card--benefits-desc .description,
+.card--claim-desc .description {
+	font-size: 14px;
+	color: #555555;
+}
+.card--benefits-desc-health,
+.card--claim-desc-health {
+	display: flex;
+	align-items: flex-start;
+}
+.card--benefits:not(:last-of-type),
+.card--claim:not(:last-of-type) {
+	margin-bottom: 16px;
+}
+.card--benefits .subtitle,
+.card--claim .subtitle {
+	color: #999999;
+	margin: 8px 0;
+	font-size: 12px;
+}
+.card--benefits-desc .title,
+.card--claim-desc .title {
+	margin-bottom: 8px;
+	font-weight: 600;
+	color: #1a1a1a;
+	font-size: 14px;
+}
+.card--benefits-desc .description,
+.card--claim-desc .description {
+	font-size: 14px;
+	color: #555555;
+	line-height: 24px;
+}
+.card--benefits-desc-health,
+.card--claim-desc-health {
+	display: flex;
+	align-items: flex-start;
+	margin-top: 8px;
+}
+.card--claim .description {
+	line-height: unset;
+	color: #999999;
+}
+.description span {
+	color: #fb2c8d;
+}
+
+.row {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	align-items: center;
+}
+
+.label,
+.desc {
+	font-size: 12px;
+	line-height: 20px;
+}
+
+.label {
+	color: #999999;
+}
+
+.desc {
+	color: #333333;
+	width: 50%;
+	text-align: right;
+}
+
+.health-card {
+	height: 270px;
+	width: 75%;
+	background-image: url("../assets/health-card-bg.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin: 0 auto 4rem;
+	background-color: white;
+	border-radius: 16px;
+	padding: 24px 32px;
+}
+.health-card img {
+	width: 108px;
+}
+.health-card__content {
+	margin-top: 6rem;
+}
+.health-card .name {
+	color: #333333;
+	font-size: 24px;
+	line-height: 32px;
+	font-weight: bold;
+}
+.health-card .text {
+	color: #999999;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+.health-care-value-card {
+	height: 270px;
+	width: 86%;
+	position: relative;
+	text-align: center;
+	background-image: url("../assets/health-care-value-card-bg.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin: 0 48px;
+	background-color: white;
+	border-radius: 16px;
+	padding: 24px 32px;
+}
+.health-care-value-card .vertical-center {
+	width: calc(100% - 64px);
+}
+.health-care-value-card img {
+	width: 108px;
+}
+.health-care-value-card .reg-1-text {
+	color: #999999;
+	font-size: 12px;
+	line-height: 20px;
+}
+.health-care-value-card .amount-text {
+	color: #a1024c;
+	font-size: 32px;
+	line-height: 42px;
+	font-weight: bold;
+	margin-top: 8px;
+	margin-bottom: 20px;
+}
+.health-care-value-card .reg-2-text {
+	font-size: 12px;
+	line-height: 20px;
+	color: #999999;
+}
+
+.light-bg-cover {
+	background-image: url("../assets/light-casava-bg.png");
+	background-repeat: no-repeat;
+	background-position: 0% 100%;
+}
+
+.mt-5 {
+	margin-top: 25px;
+}
+.health-page-one {
+	padding: 0 24px;
+	background-color: #f5f5f5;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	background-image: url("../assets/grey-casava-bg.png");
+	background-repeat: no-repeat;
+	background-position: 100%;
+}
+.health-page-big-title {
+	color: #000000;
+	font-size: 48px;
+	line-height: 50px;
+	text-align: center;
+	font-weight: 800;
+}
+.health-page-text {
+	color: #000000;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+	padding: 0 20px;
+	margin-top: 20px;
+}
+.health-page-one img.casava-logo {
+	width: 118px;
+	position: absolute;
+	top: 48px;
+}
+.page-center {
+	display: flex;
+	align-items: center;
+}
+.margin-bottom {
+	margin-bottom: 15px;
+}
+.list {
+	padding: 0;
+}
+.page-description {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 25px;
+	color: #555555;
+}
+a{
+	text-decoration: none;
+}
+.health--claims{
+	margin:0 10px;
+}
+.pink-text{
+	color: #fb2c8d;
+}
+
+
+
+
+@media (max-width: 1024px) {
+    .pt-lg-small {
+        padding-top: 30px;
+    }
+    .hline-3:after {
+        width: 305px;
+        top: 68px;
+    }
+    .lead-big {
+        font-size: 21px;
+        line-height: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        background-size: 180%;
+    }
+    .btn {
+        padding: 15px 72px;
+        min-width: initial;
+    }
+    .btn-default:hover,
+    .btn-default:active {
+        background-image: none;
+    }
+    .btn-sm {
+        padding: 5px 25px;
+    }
+    .welcome-text {
+        margin-top: 125px;
+    }
+
+    .lead-big {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .h-3-2 {
+        font-size: 26px;
+    }
+    .nawa-oh:after {
+        zoom: 80%;
+        right: -100px;
+    }
+
+    .h-3 {
+        font-size: 42px;
+        line-height: 42px;
+    }
+    .lead-big {
+        font-size: 21px;
+        line-height: 30px;
+    }
+}
+
+@media (max-width: 425px) {
+    .logo {
+        width: 144.01px;
+        height: 24px;
+    }
+    .container {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .h-3 {
+        font-size: 36px;
+        line-height: 38px;
+    }
+    .lead-big {
+        font-size: 14px;
+        line-height: 22px;
+    }
+}

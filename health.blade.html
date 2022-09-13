@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebSite">
+
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta itemprop="name" content="Casava">
+    <meta itemprop="url" content="https://casava.co">
+
+    <title>Casava Income, Life and Everything Insurance - Protect Everything You Love</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://casava-dev.s3.eu-central-1.amazonaws.com/policy-service-assets/public/employment_insurance_policy/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Custom styles for this template -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://casava-dev.s3.eu-central-1.amazonaws.com/policy-service-assets/public/css/health.css" rel="stylesheet">
+
+</head>
+
+<body class="bg-gray-4">
+    <section class="page-one px-4 h-100">
+        <div class="container h-100">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="h-1" style="text-align: center;">
+                        Health Insurance
+                    </h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="pc-title text-center">Your Policy Summary</div>
+                </div>
+            </div>
+            <div class="row" style="position: absolute; bottom: 50px; left: 50%; right: 50%; transform: translateX(-50px); max-width: fit-content;">
+                <div class="col-7 text-center">
+                    <img src="https://casava-dev.s3.eu-central-1.amazonaws.com/policy-service-assets/public/assets/casava-logo.png" border="0" height="15" class="mb-3" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="page-two px-4 h-100">
+        <div class="container h-100">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="h-1-2" style="text-align: center;">
+                        You’re Awesome!
+                    </h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="p-subtitle text-center">You are brave, you are a winner, you will thrive, you will be happy and you will stay fit and healthy.</div>
+                </div>
+            </div>
+            <div class="row" style="position: absolute; bottom: 50px; left: 50%; right: 50%; transform: translateX(-50px); max-width: fit-content;">
+                <div class="col-7 text-center">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    @if($payment->customer->name)
+    <section class="page-three px-4 h-100">
+        <div class="container h-100">
+            <div class="row">
+                <div class="col-12">
+                    <p style="text-align: center;">
+                        Your health card
+                    </p>
+                </div>
+            </div>
+            <div class="d-table p-card mb-4 w-100" style="
+     background-image: url(https://casava-dev.s3.eu-central-1.amazonaws.com/policy-service-assets/public/assets/health-card-bg.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: white;
+">
+                <div class="d-table-row w-50">
+                    <div class="d-table-cell">
+
+                        <span class="lead d-block fw-600 mb-5"><img src="https://casava-dev.s3.eu-central-1.amazonaws.com/policy-service-assets/public/assets/casava-logo-dark.png" width="55px" /> </span>
+
+                        <p style="font-size: 9px; line-height: 5px; font-weight: bold">{{ $payment->customer->first_name }} <br /> <br /> {{ $payment->customer->last_name }}</p>
+
+                        @if($payment->policy_number)
+                        <p style="font-size: 7px; line-height: 5px" class="text-muted">Health Card <br /> <br /> {{$payment->policy_number}}</p>
+                        @endif
+
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p class="text-center">
+                        Present your card at
+                        the health center
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    @endif
+
+    <section class="px-4 pt-5 h-100">
+        <div class="container h-100">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="h-2 mb-5">Getting Healthcare</h2>
+                    <small>Getting healthcare is simple and easy</small>
+                </div>
+            </div>
+            <div class="d-table p-card mb-4 w-100">
+                <span class="lead d-block fw-600">Choose the health center</span>
+                <div class="d-table-row w-50">
+                    <div class="d-table-cell">
+                        <img src="https://casava-dev.s3.eu-central-1.amazonaws.com/policy-service-assets/public/assets/check-circle-dark.svg" />
+                        <span class="small">
+
+                            Choose from over 1,000 health centers available on your Casava Health Account
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="d-table p-card mb-4 w-100">
+                <span class="lead d-block fw-600">Visit the health center</span>
+                <div class="d-table-row w-50">
+                    <div class="d-table-cell">
+                        <img src="https://casava-dev.s3.eu-central-1.amazonaws.com/policy-service-assets/public/assets/check-circle-dark.svg" />
+                        <span class="small">
+
+                            You can visit the health center when you need to consult a doctor or if you need treatment
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="d-table p-card mb-4 w-100">
+                <span class="lead d-block fw-600">Call doctor or specialist</span>
+                <div class="d-table-row w-50">
+                    <div class="d-table-cell">
+                        <img src="https://casava-dev.s3.eu-central-1.amazonaws.com/policy-service-assets/public/assets/check-circle-dark.svg" />
+                        <span class="small">
+                            You call a doctor or specialist on our 24/7 telemedicine line - 09092529095-7, 09092529101-2 & 09092529124-5
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    @if($payment->net_amount)
+    <section class="page-five px-4 h-100">
+        <div class="container h-100">
+            <div class="row">
+                <div class="col-12">
+                    <p style="text-align: center;">
+                        Health Care Value
+                    </p>
+                </div>
+            </div>
+
+            <div class="d-table p-card mb-4 w-100" style="
+     background-image: url(https://casava-dev.s3.eu-central-1.amazonaws.com/policy-service-assets/public/assets/health-care-value-card-bg.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: white;
+">
+                <div class="d-table-row w-50">
+                    <div class="d-table-cell">
+
+
+                        <p class="text-center">in combined health care value</p>
+                        <p class="text-center" style="color: #a1024c;
+font-size: 32px;
+line-height: 42px;
+font-weight: bold;
+margin-top: 8px;
+margin-bottom: 20px;"> ₦ {{ number_format($payment->sum_assured) }}</p>
+
+                        <p class="text-muted text-center" style="font-size: 6px">
+                            You’ll pay ₦ {{ number_format($payment->net_amount )}}
+
+                            @if(\Illuminate\Support\Carbon::parse($payment->expiry_date)->diffInMonths(\Illuminate\Support\Carbon::parse($payment->commencement_date)) === 1)
+                            monthly
+                            @endif
+                            @if(\Illuminate\Support\Carbon::parse($payment->expiry_date)->diffInYears(\Illuminate\Support\Carbon::parse($payment->commencement_date)) === 1)
+                            yearly
+                            @endif
+
+                            after your trial. </p>
+
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center">
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+    @endif
+
+
+    <section class="page-six px-4 pt-5 h-100">
+        <div class="container h-100">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="h-2 mb-5">Getting Healthcare</h2>
+                    <small>The benefits stated below are covered at our In-Network hospitals or Plan Hospital </small>
+                </div>
+            </div>
+            <div class="d-table p-card mb-4 w-100">
+                <span class="lead d-block fw-600">Care accessible</span>
+                <div class="d-table-row w-50">
+                    <div class="d-table-cell">
+                        <img src="https://casava-dev.s3.eu-central-1.amazonaws.com/policy-service-assets/public/assets/check-circle-dark.svg" />
+                        <span class="small">
+                            In-Network list of providers
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="d-table p-card mb-4 w-100">
+                <span class="lead d-block fw-600">Accident and Emergency</span>
+                <div class="d-table-row w-50">
+                    <div class="d-table-cell">
+                        <img src="https://casava-dev.s3.eu-central-1.amazonaws.com/policy-service-assets/public/assets/check-circle-dark.svg" />
+                        <span class="small">
+
+                            Covered up to ₦ 50,000
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="d-table p-card mb-4 w-100">
+                <span class="lead d-block fw-600">Antenatal and Delivery</span>
+                <div class="d-table-row w-50">
+                    <div class="d-table-cell">
+                        <img src="https://casava-dev.s3.eu-central-1.amazonaws.com/policy-service-assets/public/assets/check-circle-dark.svg" />
+                        <span class="small">
+                            Covered up to ₦ 20,000
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="page-six px-4 pt-5 h-100">
+        <div class="container h-100">
+
+            <div class="d-table p-card mb-4 w-100">
+                <span class="lead d-block fw-600">Malaria and Infections (Consultation, Tests and Drugs) </span>
+
+                <p class="text text-sm-left text-muted" style="font-size: 7px; line-height: 8px">
+                    Infections covered -Acute Upper Respiratory tract infection,
+                    Gastro enteritis , other uncomplicated acutefebrileillnesses,
+                    simple anaemia (not requiring blood transfusion), uncomplicated
+                    bacterial and fungal skin infection , uncomplicated parasitic
+                    and viral infection.
+                </p>
+
+                <div class="d-table-row w-50">
+                    <div class="d-table-cell">
+                        <img src="https://casava-dev.s3.eu-central-1.amazonaws.com/policy-service-assets/public/assets/check-circle-dark.svg" />
+                        <span class="small">
+                            Covered up to ₦ 50,000
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="d-table p-card mb-4 w-100">
+                <span class="lead d-block fw-600">Immunisation for under 5</span>
+                <p class="text text-sm-left text-muted" style="font-size: 7px; line-height: 8px">
+                    (At Government hospitals)
+                </p>
+                <div class="d-table-row w-50">
+                    <div class="d-table-cell">
+                        <img src="https://casava-dev.s3.eu-central-1.amazonaws.com/policy-service-assets/public/assets/check-circle-dark.svg" />
+                        <span class="small">
+
+                            Covered up to ₦ 50,000
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="page-six px-4 pt-5 h-100">
+        <div class="container h-100">
+
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="h-2 mb-2">Exclusions</h2>
+
+                    <p class="text-muted" style="font-size: 6px; line-height: 7px">
+                        There are services that are not covered by this Health Insurance Policy.
+                    </p>
+                    <p class="text-muted" style="font-size: 6px; line-height: 7px">
+                        These non-covered services are referred to as exclusions. Please ensure that you read and understand this section as the HMO shall not cover nor pay for expenses arising from these conditions
+                    </p>
+                </div>
+            </div>
+
+            <div class="d-table p-card mb-4 w-100">
+                <div class="d-table-row w-50">
+                    <div class="d-table-cell">
+
+                        <ul>
+                            <li style="font-size: 7px; line-height: 12px">
+                                In-patient services (except lump sum payable for
+                                Antenatal/Delivery, Accident and Emergency).
+                            </li>
+
+                            <li style="font-size: 7px; line-height: 12px">Outpatient services not listed in Benefits table</li>
+
+                            <li style="font-size: 7px; line-height: 12px">Dental Care</li>
+
+                            <li style="font-size: 7px; line-height: 12px">Optical Care</li>
+
+                            <li style="font-size: 7px; line-height: 12px">
+                                Basic hematological investigations not related to covered
+                                services
+                            </li>
+
+                            <li style="font-size: 7px; line-height: 12px">Radiological investigations.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </section>
+
+    <section class="page-six px-4 pt-5 h-100">
+        <div class="container h-100">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="h-2 mb-2">Exclusions</h2>
+
+                </div>
+            </div>
+
+            <div class="d-table p-card mb-4 w-100">
+                <div class="d-table-row w-50">
+                    <div class="d-table-cell">
+
+                        <ul>
+                            <li style="font-size: 7px; line-height: 12px">
+                                Advanced and Complex investigations
+                            </li>
+
+                            <li style="font-size: 7px; line-height: 12px">Surgeries not related to Maternity services or Accident and Emergency </li>
+
+                            <li style="font-size: 7px; line-height: 12px">Management of Cancers</li>
+
+                            <li style="font-size: 7px; line-height: 12px">Management of Pre-existing or Chronic illnesses</li>
+
+                            <li style="font-size: 7px; line-height: 12px">
+                                Professional Sports and willful exposure to needless danger
+                            </li>
+
+                            <li style="font-size: 7px; line-height: 12px">Cosmetic surgeries.</li>
+                            <li style="font-size: 7px; line-height: 12px">Conditions caused by an act of war or Beneficiary participation in a riot </li>
+                            <li style="font-size: 7px; line-height: 12px">Treatment for weight reduction or obesity.</li>
+                            <li style="font-size: 7px; line-height: 12px">All procedures, management and investigations not covered by the plan </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </section>
+
+
+    <section class="page-six px-4 pt-5 h-100">
+        <div class="container h-100">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="h-2 mb-2">Here for you</h2>
+
+                </div>
+            </div>
+
+            <div class="d-table p-card mb-4 w-100">
+                <div class="d-table-row w-50">
+                    <div class="d-table-cell">
+                        <p class="text-center">
+                            We care about you and we are here to help. Contact us on
+                        </p>
+
+                        <p class="text-center">
+                            Email: <a href="" style="color:deeppink">hello@casava.co</a>
+                        </p>
+
+
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </section>
+
+
+    <section class="page-six px-4 pt-5 h-100">
+        <div class="container h-100">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="h-2 mb-2">Free Trial & Duration Period</h2>
+
+                </div>
+            </div>
+
+            <div class="d-table p-card mb-4 w-100">
+                <div class="d-table-row w-50">
+                    <div class="d-table-cell">
+                        <p class="text-muted">A waiting and free trial period of 1 month applies. </p>
+
+                        <p class="text-muted">We will complete your documentation and send your details to the health care provider.</p>
+
+                        <p class="text-muted">During this time, you will be eligible for ONLY telemedicine services. </p>
+
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-table p-card mb-4 w-100">
+                <div class="d-table-row w-50">
+                    <div class="d-table-cell">
+
+                        <p class="text-muted">The policy shall run for one-year (the term) subject to uninterrupted monthly or annual premium payment and subsequently renewable. </p>
+
+
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </section>
+
+
+    <section class="page-six px-4 pt-5 h-100">
+        <div class="container h-100">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="h-2 mb-2">Hospital Network</h2>
+
+                </div>
+            </div>
+
+            <div class="d-table p-card mb-4 w-100">
+                <div class="d-table-row w-50">
+                    <div class="d-table-cell">
+                        <p class="text-muted">
+                            The HMO shall provide or through in-network hospitals arrange for provision to Beneficiaries of those Covered Services that are identified.
+                        </p>
+
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-table p-card mb-4 w-100">
+                <div class="d-table-row w-50">
+                    <div class="d-table-cell">
+
+                        <p class="text-muted">
+                            The Beneficiaries shall be entitled to healthcare at one (1) In-Network Hospital and can request for change of hospital bi-annually.
+                        </p>
+
+
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </section>
+
+    <section class="page-six px-4 pt-5 h-100">
+        <div class="container h-100">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="h-2 mb-2">Compliance & Standards</h2>
+
+                </div>
+            </div>
+
+            <div class="d-table p-card mb-4 w-100">
+                <div class="d-table-row w-50">
+                    <div class="d-table-cell">
+                        <p class="text-muted">
+                            All Covered Services shall be provided in accordance with the
+                            generally accepted clinical and legal standards consistent with
+                            best practices in medical ethics and practices applicable
+                            internationally based on the cover limit.
+                        </p>
+
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-table p-card mb-4 w-100">
+                <div class="d-table-row w-50">
+                    <div class="d-table-cell">
+
+                        <p class="text-muted">
+                            This service is provided by Casava Micro insurance Limited, a
+                            licensed and regulated General & Life micro insurance company.
+                            The policy is underwritten by Axa Health Insurance, an
+                            authorized HMO provider.
+                        </p>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
