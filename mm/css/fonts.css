@@ -5,6 +5,11 @@
   }
 @font-face {
     font-family: Fellix;
+    src: url('../assets/fonts/Felix_Font/TTF/Fellix-Regular.ttf');
+  }
+
+@font-face {
+    font-family: FellixMedium;
     src: url('../assets/fonts/Felix_Font/TTF/Fellix-Medium.ttf');
   }
 
@@ -18,7 +23,12 @@ h6 {
    
 }
 
-strong, p {
+ p {
     font-family: Fellix  !important;
+    
+}
+
+strong {
+    font-family: FellixMedium  !important;
     
 }
