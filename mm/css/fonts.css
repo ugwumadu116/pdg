@@ -1,0 +1,24 @@
+@font-face {
+    font-family:VCGooperCondensed;
+    src: url('../assets/fonts/Gooper_Font/webfonts/VCGooperCondensed-SemiBold.woff');
+
+  }
+@font-face {
+    font-family: Fellix;
+    src: url('../assets/fonts/Felix_Font/TTF/Fellix-Medium.ttf');
+  }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family:VCGooperCondensed !important;
+   
+}
+
+strong, p {
+    font-family: Fellix  !important;
+    
+}
