@@ -58,6 +58,13 @@ strong {
     background-repeat: no-repeat; 
     background-size: cover;
 }
+.page-three-health-cash {
+    background-image: url('../assets/45.png');
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
 .page-one-Credit_Life_Insurance{
     background-image: url('../assets/Micropolicy_Credit_Life_Insurance.png');
     background-position: center;
