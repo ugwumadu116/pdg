@@ -1,0 +1,380 @@
+@font-face {
+    font-family:VCGooperCondensed;
+    /* src: url('../assets/fonts/Gooper_Font/webfonts/VCGooper-Bold.woff'); */
+    src: url('../assets/fonts/Gooper_Font/webfonts/VCGooperCondensed-SemiBold.woff');
+
+  }
+@font-face {
+    font-family: Fellix;
+    src: url('../assets/fonts/Felix_Font/TTF/Fellix-Medium.ttf');
+  }
+body {
+    /* font-family: Fellix, 'Helvetica Neue', Helvetica, Arial, sans-serif; */
+    height: 640px;
+    width: 360px;
+    /* to centre page on screen*/
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #545454;
+}
+
+a {
+    color: #000;
+}
+
+p {
+    font-size: 14px;
+    line-height: 22px;
+    color: #000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family:VCGooperCondensed !important;
+    /* font-family: Fellix, 'Helvetica Neue', Helvetica, Arial, sans-serif !important; */
+    /* font-weight: 700; */
+    color: #000;
+}
+
+strong {
+    font-family: Fellix  !important;
+    
+}
+
+.page-one {
+    background-image: url('../assets/Micropolicy_Health_Insurance.png');
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.page-one-health-cash {
+    background-image: url('../assets/Micropolicy_Health_Cash.png');
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+.page-three-health-cash {
+    background-image: url('../assets/45.png');
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.page-one-Credit_Life_Insurance{
+    background-image: url('../assets/Micropolicy_Credit_Life_Insurance.png');
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.page-one-Micropolicy_business_Insurance{
+    background-image: url('../assets/Micropolicy_business_insurance.png');
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.page-two {
+    background-color: #F2F2F7;
+    /* background-repeat: no-repeat;
+    background-image: url('../assets/pink-casava-bg.png');
+    background-position: 50% 100%; */
+
+}
+
+.page-three {
+    background-color: #e5e5e5;
+}
+
+.page-five {
+    background-color: #ebf5ff;
+}
+
+.h-1 {
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 64px;
+    color: white;
+
+   
+}
+
+.h-1-2 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 50px;
+    color: #FF147D;
+}
+
+.h-2 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 45px;
+    color: #000000;
+}
+.h-2-1 {
+    font-family: Fellix !important;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #231F20;
+}
+
+.h-3-2 {
+    font-size: 36px;
+}
+
+.lh-70 {
+    line-height: 70px;
+}
+
+.lead {
+    font-family: Fellix;
+    font-size: 14px;
+    line-height: 22px;
+    color: #000;
+}
+
+.lead-Gooper {
+    font-family: VCGooperCondensed !important;
+    font-size: 21.4582px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.fw-600{
+    font-weight: 600;
+}
+
+.small {
+    font-family: Fellix;
+    font-size: 10px;
+    line-height: 14px;
+    color: #000;
+    
+}
+
+.p-card{
+    border: 1px solid #EAEAEA;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 15px 24px;
+    /* padding: 15px 10px; */
+}
+
+.bg-white {
+    background-color: #ffffff;
+}
+
+.border-round-16 {
+    border-radius: 16px;
+}
+
+.border-round-24 {
+    border-radius: 24px;
+}
+
+.gray-4{
+    color:  #999999;
+}
+
+.gray-5{
+    color: #545454;
+}
+
+
+.p-subtitle {
+    font-family: Fellix;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+.p-semi-subtitle {
+    font-family: Fellix;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 11px;
+
+    color: #91A7A7;
+
+}
+
+.pc-title {
+    font-family: Fellix;
+    font-size: 16px;
+    line-height: 24px;
+    color:white;
+}
+
+.logo-bg{
+    background-image: url("../img/bg/bg-symbol.svg");
+    background-repeat: no-repeat;
+}
+
+section {
+    position: relative;
+    padding-top: 5.188rem;
+    /* padding-top: 13rem; */
+    padding-bottom: 8rem;
+    height: 842px;
+    background-color: white;
+    border-bottom: 1px solid #545454;
+}
+
+.btn {
+    border-radius: 5px;
+    padding: 9px 30px;
+    font-family: Fellix;
+    width: 100%;
+}
+
+.btn:focus, .btn.focus {
+    box-shadow: none;
+}
+
+.btn.btn-primary {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    background-color: #FF3355;
+    border: 0;
+}
+
+.btn.btn-primary:hover {
+    background-color: #FF3355 !important;
+}
+
+.text-default { color: #ff335f }
+
+.bg-default {
+    background-color: #ff335f;
+}
+
+.bg-default-light {
+    background-color: #fffaf4;
+}
+
+.bg-default-gray {
+    background-color: #f5f5f5;
+}
+
+.copyright {
+    text-align: center;
+    color: #ffffff;
+}
+
+.logo {
+    display: inline-block;
+    background: url(../img/sprint.svg) no-repeat transparent;
+    background-position: left 0px top 0px;
+    background-size: cover;
+    width: 220px;
+    height: 36.66px;
+    position: relative;
+    transition: background 0.15s ease-out;
+}
+
+.img {
+    max-width: 100%;
+}
+
+.hide {
+    display: none !important;
+}
+
+.bg-grad {
+    background: linear-gradient(147.44deg, #ff335f 26.99%, #3eccf1 74.1%) !important;
+}
+
+.bg-grad-dark {
+    background: linear-gradient(147.44deg, #203947 26.99%, #0388a3 74.1%) !important;
+}
+
+.z-index-10 {
+    z-index: 10;
+}
+
+.full-vh {
+    min-height: 100vh;
+}
+
+@media (max-width: 1024px) {
+    .pt-lg-small {
+        padding-top: 30px;
+    }
+    .hline-3:after {
+        width: 305px;
+        top: 68px;
+    }
+    .lead-big {
+        font-size: 21px;
+        line-height: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        background-size: 180%;
+    }
+    .btn {
+        padding: 15px 72px;
+        min-width: initial;
+    }
+    .btn-default:hover,
+    .btn-default:active {
+        background-image: none;
+    }
+    .btn-sm {
+        padding: 5px 25px;
+    }
+    .welcome-text {
+        margin-top: 125px;
+    }
+
+    .lead-big {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .h-3-2 {
+        font-size: 26px;
+    }
+    .nawa-oh:after {
+        zoom: 80%;
+        right: -100px;
+    }
+
+    .h-3 {
+        font-size: 42px;
+        line-height: 42px;
+    }
+    .lead-big {
+        font-size: 21px;
+        line-height: 30px;
+    }
+}
+
+@media (max-width: 425px) {
+    .logo {
+        width: 144.01px;
+        height: 24px;
+    }
+    .container {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .h-3 {
+        font-size: 36px;
+        line-height: 38px;
+    }
+    .lead-big {
+        font-size: 14px;
+        line-height: 22px;
+    }
+}
